@@ -1,0 +1,2 @@
+// http://stackoverflow.com/questions/9624972/command-for-loading-jquery-on-google-chrome-inspector/9624997#9624997
+javascript:if(!window.jQuery||confirm('Overwrite\x20current\x20version?\x20v'+jQuery.fn.jquery))(function(d,s){s=d.createElement('script');s.src='https://code.jquery.com/jquery-2.2.3.min.js';(d.head||d.documentElement).appendChild(s)})(document);
